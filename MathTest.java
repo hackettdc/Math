@@ -5,10 +5,10 @@ public class MathTest {
     Math math;
     @Before
     public void setUp() throws Exception {
-        math = new Math(7, 10);
+        math = new Math(4, 20);
     }
     @Test
     public void testAdd() {
-        Assert.assertEquals(17, math.add());
+        Assert.assertEquals(24, math.add());
     }
 }
